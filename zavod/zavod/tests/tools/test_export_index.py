@@ -7,7 +7,6 @@ from json import load
 from zavod.runner import run_dataset
 from zavod.exporters import export
 
-DATASET_2_YML = FIXTURES_PATH / "testdataset2" / "testdataset2.yml"
 COLLECTION_YML = FIXTURES_PATH / "collection.yml"
 
 
