@@ -1,0 +1,14 @@
+{
+  "resources": [
+    {
+      "name": "source.csv",
+      "url": "https://data.opensanctions.org/datasets/20230801/testdataset1/source.csv",
+      "checksum": "085f67f2e868f73964b66addd9f4b8584d59a10c",
+      "mime_type": "text/csv",
+      "mime_type_label": "Comma-separated table",
+      "title": "Source data",
+      "size": 944,
+      "path": "source.csv"
+    }
+  ]
+}

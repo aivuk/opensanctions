@@ -1,0 +1,60 @@
+osv-11ccbadf03c265454795b9bf79eb15754ca267d1,Membership:id,0c6ffc659b89a7804d36d73aa7f0729909062f6c,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,803d6c40e2574a7435e363b7c9fae245b4108f0c
+osv-11ccbadf03c265454795b9bf79eb15754ca267d1,Membership:summary,MdB,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,063af122a403b20d8a46379ffb017227324e4cae
+osv-11ccbadf03c265454795b9bf79eb15754ca267d1,Membership:startDate,1979,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,3c01d5fbb6f7ce1e4dc1eee64a20f05548319b00
+osv-11ccbadf03c265454795b9bf79eb15754ca267d1,Membership:member,osv-mierscheid,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,9a6d8de5944801d6bd1239d35b8e9d853abf2116
+osv-11ccbadf03c265454795b9bf79eb15754ca267d1,Membership:organization,osv-spd,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e8479d17644c2408b07736ce892a570f1ddf07c7
+osv-mierscheid,Person:id,3b1c423ec49f8faa2fe0afb4886570b21babb134,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,65cfa631b8180ed682bb7f8e4144a2989b5fcd4c
+osv-mierscheid,Person:name,Jakob Maria Mierscheid,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,c90a55c7deea25a06e3a19ef53a7a2dc5af0e1a9
+osv-mierscheid,Person:alias,Jakob Mierscheid,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e665c386908531202a87d3fc3cccd60096b1b91e
+osv-mierscheid,Person:topics,role.pep,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,bcfef62620728f0f208ae77eca763b201829ce02
+osv-mierscheid,Person:notes,Fictional parliamentarian,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,a4e58161474a9beb8d5af12ee008779552fa9d8d
+osv-mierscheid,Person:nationality,de,testdataset1,,Germany,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,80e57cadb970affc9d1b05cdf1a87a93d1eab057
+osv-mierscheid,Person:idNumber,DE1234,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,f40a971854719b7ef09c9932e5192c962f0d86d8
+osv-mierscheid,Person:birthDate,1933-03-01,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,8833868a0f9a280f266bdaeb2cab5eee739a2d01
+osv-spd,Organization:id,7120009499180f4532d5c64056e96521d1ba445c,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,a89cb00bc619a63f1a6168aabe75f15f3f731bab
+osv-spd,Organization:name,Sozialdemokratische Partei Deutschlands,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e87c26ae5f7c953baef5379eac539a6918d32013
+osv-spd,Organization:jurisdiction,de,testdataset1,,Germany,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e963b862436b852acb5e4bad704d1c963c8d468c
+osv-eb0a27f226377001807c04a1ca7de8502cf4d0cb,Family:id,e071c24b578eed5615047ab54140b1110a8827c2,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e8bfb11286066bf1b2d09809e4b4df580b58e4c8
+osv-eb0a27f226377001807c04a1ca7de8502cf4d0cb,Family:summary,Spouse,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,d19c87a3bbc3265b1d0012c2e97f5d62e3fa389d
+osv-eb0a27f226377001807c04a1ca7de8502cf4d0cb,Family:startDate,2003,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,64d042b393302d4078d76ba3b11be2e2bfea5f08
+osv-eb0a27f226377001807c04a1ca7de8502cf4d0cb,Family:person,osv-john-doe,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,931918df5d530ec89180475e49ca0947e72cf5bc
+osv-eb0a27f226377001807c04a1ca7de8502cf4d0cb,Family:relative,osv-jane-doe,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,eef8b291a97a7b661dcadeb22b558ba56efdbb8a
+osv-john-doe,Person:id,3fa50810a8b234e0e51da06e921b71cc96592690,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,418c79d7e636f047a2a2a18aa70dbc01cbe078ec
+osv-john-doe,Person:name,John Doe,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,fc1e5ca83d62c46356fb14eec078cd6ad74004da
+osv-john-doe,Person:nationality,us,testdataset1,,United States,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,9e3a54c81752b683584755032f3cdc1098d774c2
+osv-john-doe,Person:birthDate,1975,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,10a40055c21f8a016ebba42974cc886b70110938
+osv-jane-doe,Person:id,f33c20628f123ff4060aa04425ce4a4a46000ab8,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,1e5c62a3423c4a83a6eb94ae33738d0f38905316
+osv-jane-doe,Person:name,Jane Doe,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,3f4bb19aa463bd21cfc8ce39a2d71bc6892da1a1
+osv-jane-doe,Person:alias,Jane Smith,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,f8ac3433a1b56d614cfc894a7570510e376a2a6b
+osv-jane-doe,Person:nationality,py,testdataset1,,Paraguay,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,6eebd07abd1ab72b12a1cf5e16be4b26ecbdee89
+osv-jane-doe,Person:birthDate,1972,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,c65a3a0576c1beb701111dde5cd43f7765c91529
+osv-hans-gruber,Person:id,34a6908fdf2d2691063ea05c8b70d09e3ae4a8f3,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,65b35d7d9c46e3530e1eb3834256465ab9fc3ca2
+osv-hans-gruber,Person:name,Hans Gruber,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,c97f531e3da3b60fdef318cc48f269587287170b
+osv-hans-gruber,Person:alias,Bill Clay,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,8f725246ab55bdbb02757ad5d6b153955d0085e8
+osv-hans-gruber,Person:notes,Freedom fighter,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,e1404f09a15f6fd986c808fd84e90836759b94ed
+osv-hans-gruber,Person:address,"Lauensteiner Str. 49, 01277 Dresden",testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,024a6a96c8f9c702b5f7865cbbc1c32554929ed0
+osv-hans-gruber,Person:nationality,dd,testdataset1,,East Germany,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,81192024dffcfd146ef7ca13607bdedab3710025
+osv-hans-gruber,Person:birthDate,1978-09-25,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,c0bea70b4b601acb0cb8a4a2b472be282269b460
+osv-umbrella-corp,Company:id,e878457b197fb9a9b7ab09ef79518c28a9a7859c,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,0af71ccc00e496730cbb535610a4e460ec4ccf64
+osv-umbrella-corp,Company:name,Umbrella Corporation,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,101e7fe1d1a6dd87c4212ece02eff3c4b94c83ad
+osv-umbrella-corp,Company:alias,"Umbrella Pharmaceuticals, Inc.",testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,397fa4ccabdc404a1589d4cc1c3d750c729d88c1
+osv-umbrella-corp,Company:jurisdiction,us,testdataset1,,United States,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,86db7dd4f7eb7d419610d1eda89edec8762f70e9
+osv-umbrella-corp,Company:registrationNumber,8723-BX,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,c954466825e1152e71985c8dc3da793b3139549b
+osv-umbrella-corp,Company:incorporationDate,1980,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,efe0683620b80c8ed243b1be1247d11bac1950a7
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:id,9b63b2450a4452d709cc1afa4b957eb9c266fedd,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,fc0f754c30929fedbc26acba66aaebb5fbeebabe
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:summary,Founder,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,d1555d7e8a00faa62b3a01c7ef4818f59fdab780
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:startDate,1968,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,181f20c8c3394de19f6387c01697ea9cf154b32c
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:endDate,2003,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,b1497c0464fbf36df1f4b7ca6d9d40ad1dda4579
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:owner,osv-oswell-spencer,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,3d6a610a855df5e481201942418f8363c9fc0c15
+osv-689399b132ac70085224a73a0eed3e0e2108e7d0,Ownership:asset,osv-umbrella-corp,testdataset1,,,f,f,2023-08-01T14:12:16,2023-08-01T14:12:16,72eaf7ed6c2fff6650b0a7677e716453f392400f
+osv-oswell-spencer,Person:id,efbe4146c595f363449f6339fc78375cdca65770,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,cf0888974ffedf35c732e78c933e30aaec868838
+osv-oswell-spencer,Person:name,Oswell E. Spencer,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,81e7154172f46d940079ac1e68c29080896ea178
+osv-oswell-spencer,Person:alias,Ozwell E. Spencer; オズウェル,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,fbdbadf365b660b9678d7adc469828f894c4a889
+osv-oswell-spencer,Person:topics,crime.boss,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,254a4ea51e9af6a6c44446839c4b9b3ea27b7905
+osv-oswell-spencer,Person:nationality,jp,testdataset1,,Japan,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,cc1eb35406dad3af2c720a42ab8de931691afe1c
+osv-oswell-spencer,Person:birthDate,1923,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,8e76f95df2be284b8486d1bfa240bfb7b815834c
+osv-johnny-does,Person:id,afc3829ee8eefbe128b6c648b20f9e23485aedc0,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,830e6fe99b9a060560a8e21c5d12bee5666979d3
+osv-johnny-does,Person:name,Johnny Doe,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,0b29bd7d13ba7106b5dd87785e843a3ee418a05f
+osv-johnny-does,Person:alias,John Ignatius Doe,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,4c96085ee4e2a32b8ec50011012cd554c54aca39
+osv-johnny-does,Person:nationality,ca,testdataset1,,Canada,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,f6809ea91f8528d29661255069f182c57004be9d
+osv-johnny-does,Person:birthDate,1975,testdataset1,,,t,f,2023-08-01T14:12:16,2023-08-01T14:12:16,dc0d033785134db62cc74e97cbd574e25f4d1ac7

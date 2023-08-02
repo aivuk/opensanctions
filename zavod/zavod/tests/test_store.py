@@ -2,6 +2,8 @@ from zavod import settings
 from zavod.meta import Dataset
 from zavod.runner import run_dataset
 from zavod.store import get_store, get_view, clear_store
+from datetime import timedelta
+from zavod.tests.conftest import FIXTURES_PATH
 
 
 def test_store_access(vdataset: Dataset):
@@ -27,3 +29,26 @@ def test_store_access(vdataset: Dataset):
     view2.store.close()
     clear_store(vdataset)
     assert not store.path.exists()
+
+
+def test_timestamps(vdataset: Dataset):
+    settings.ARCHIVE_BACKEND = "FilesystemBackend"
+    settings.ARCHIVE_PATH = FIXTURES_PATH / "backfill"
+    first_time = "2023-08-01T14:12:16"
+    run_dataset(vdataset)
+
+    settings.RUN_TIME = settings.RUN_TIME + timedelta(days=1)    
+    settings.RUN_TIME_ISO = settings.RUN_TIME.isoformat(sep="T", timespec="seconds")
+    settings.RUN_DATE = settings.RUN_TIME.date().isoformat()
+    second_time = settings.RUN_TIME_ISO
+    run_dataset(vdataset)
+
+    store = get_store(vdataset, external=True)
+    view = store.default_view(external=True)
+    entity = view.get_entity("osv-john-doe")
+
+    settings.ARCHIVE_BACKEND = "CloudStorageBackend"
+
+    assert entity.last_change == first_time
+    assert entity.first_seen == first_time
+    assert entity.last_seen == second_time

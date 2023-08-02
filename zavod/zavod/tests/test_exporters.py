@@ -3,6 +3,7 @@ from followthemoney.cli.util import path_entities
 from followthemoney.proxy import EntityProxy
 from json import load, loads
 from nomenklatura.judgement import Judgement
+from datetime import timedelta
 
 from zavod import settings
 from zavod.context import Context
